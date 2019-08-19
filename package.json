@@ -1,0 +1,16 @@
+{
+  "name": "calendar-tools",
+  "version": "1.0.0",
+  "description": "封装了制作日历需要的计算工具",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "日历",
+    "calendar",
+    "tool"
+  ],
+  "author": "zkyTech",
+  "license": "ISC"
+}
