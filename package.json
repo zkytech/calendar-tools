@@ -1,5 +1,5 @@
 {
-  "name": "calendar-tools",
+  "name": "calendar-tools-pkg",
   "version": "1.0.0",
   "description": "封装了制作日历需要的计算工具",
   "main": "index.ts",
