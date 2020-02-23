@@ -59,11 +59,12 @@ export const getDateListByMonth = (date: Date, startDay: number) => {
   /** 先获取该月份的起点 */
   date.setDate(1);
   // @ts-ignore
-  let dateObj = new Date(date);
-  dateObj.setDate(1);
+
 
   /** 前面一部分非当前月的日期 */
   for (let day = startDay; day != date.getDay(); day = calcWeekDay(day, 1)) {
+    let dateObj = new Date(date);
+    dateObj.setDate(1);
     dateObj.setFullYear(year);
     dateObj.setMonth(month);
     dateObj.setDate(date.getDate() - (date.getDay() - day));
